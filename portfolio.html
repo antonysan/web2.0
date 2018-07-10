@@ -49,43 +49,83 @@
         <section class="portfolio">
           <p class="portfolio__header">Что я уже сделал ?</p>
           <div class="portfolio__content">
-            <div class="portfolio__block portfolio__block--flex">
-              <div class="portfolio__image-box">
-                <img class="portfolio__image" src="images/mir-preview.jpg" alt="На фото изображен скриншот сайта ТЦ Мир">
-              </div>
-              <div class="portfolio__description">
-                <p class="portfolio__title portfolio__title--head">Сайт для ТЦ МИР</p>
-                <p class="portfolio__title">
-                  <span class="portfolio__title-name">Технологии:</span>
-                  <span>Flexbox, Less</span>
-                </p>
-                <p class="portfolio__title">
-                  <span class="portfolio__title-name">Контроль версий:</span>
-                  <span>GitHub</span>
-                </p>
-                <p class="portfolio__title">
-                  <span class="portfolio__title-name">Библиотеки:</span>
-                  <span> Jquery, owl-carousel</span>
-                </p>
-                <p class="portfolio__title">
-                  <span class="portfolio__title-name">Срок вёрстки  –  </span>
-                  <span>2 Недели</span>
-                </p>
-                <p class="portfolio__title">
-                  <span class="portfolio__title-name">
-                    <a class="portfolio__title-link" href="">Ссылка на проект   <- </a>
-                  </span>
-                </p>
-                <p class="portfolio__title">
-                  <span class="portfolio__title-name">Вертска сайта</span>
-                  <span>
-                    проводилась для разрешний от&nbsp;320px (Iphone 4) до&nbsp;FullHD.
-                    В&nbsp;проекте использовалась максимально SVG графика.
-                    Иконки в .png были собственно ручно перерисованны в&nbsp;SVG при
-                    помощи inscape, figma.
+            <div class="portfolio__block portfolio__block--column">
+              <div class="portfolio__card  portfolio__card--flex" id="mir">
+                <div class="portfolio__image-box">
+                  <img class="portfolio__image" src="images/mir-preview.jpg" alt="На фото изображен скриншот сайта ТЦ Мир">
+                </div>
+                <div class="portfolio__description">
+                  <p class="portfolio__title portfolio__title--head">Сайт для ТЦ МИР</p>
+                  <p class="portfolio__title">
+                    <span class="portfolio__title-name">Технологии:</span>
+                    <span>Flexbox, Less</span>
+                  </p>
+                  <p class="portfolio__title">
+                    <span class="portfolio__title-name">Контроль версий:</span>
+                    <span>GitHub</span>
+                  </p>
+                  <p class="portfolio__title">
+                    <span class="portfolio__title-name">Библиотеки:</span>
+                    <span> Jquery, owl-carousel</span>
+                  </p>
+                  <p class="portfolio__title">
+                    <span class="portfolio__title-name">Срок вёрстки  –  </span>
+                    <span>2 Недели</span>
+                  </p>
+                  <p class="portfolio__title">
+                    <span class="portfolio__title-name">
+                      <a class="portfolio__title-link" href="">Ссылка на проект   <- </a>
+                    </span>
+                  </p>
+                  <p class="portfolio__title">
+                    <span class="portfolio__title-name">Верстка сайта</span>
+                    <span>
+                      проводилась для разрешний от&nbsp;320px (Iphone 4) до&nbsp;FullHD.
+                      В&nbsp;проекте использовалась максимально SVG графика.
+                      Иконки в .png были собственно ручно перерисованны в&nbsp;SVG при
+                      помощи inscape, figma.
 
-                  </span>
-                </p>
+                    </span>
+                  </p>
+                </div>
+              </div>
+              <div class="portfolio__card  portfolio__card--flex" id="byrpex">
+                <div class="portfolio__image-box">
+                  <img class="portfolio__image" src="images/mir-preview.jpg" alt="На фото изображен скриншот сайта ТЦ Мир">
+                </div>
+                <div class="portfolio__description">
+                  <p class="portfolio__title portfolio__title--head">Интернет магазин BYRPEX</p>
+                  <p class="portfolio__title">
+                    <span class="portfolio__title-name">Технологии:</span>
+                    <span>Flexbox, Less</span>
+                  </p>
+                  <p class="portfolio__title">
+                    <span class="portfolio__title-name">Контроль версий:</span>
+                    <span>GitHub</span>
+                  </p>
+                  <p class="portfolio__title">
+                    <span class="portfolio__title-name">Библиотеки:</span>
+                    <span> Jquery, owl-carousel</span>
+                  </p>
+                  <p class="portfolio__title">
+                    <span class="portfolio__title-name">Срок вёрстки  –  </span>
+                    <span>1 Месяц</span>
+                  </p>
+                  <p class="portfolio__title">
+                    <span class="portfolio__title-name">
+                      <a class="portfolio__title-link" href="">Ссылка на проект   <- </a>
+                    </span>
+                  </p>
+                  <p class="portfolio__title">
+                    <span class="portfolio__title-name">Верстка сайта</span>
+                    <span>
+                      проводилась для разрешний от&nbsp;320px (Iphone 4) до&nbsp;FullHD.
+                      В&nbsp;проекте использовалась максимально SVG графика.
+                      Иконки в .png были собственно ручно перерисованны в&nbsp;SVG при
+                      помощи inscape, figma.
+                    </span>
+                  </p>
+                </div>
               </div>
             </div>
 
@@ -94,8 +134,8 @@
             <aside class="portfolio__block invisible-xs">
               <p class="portfolio__list-header">Полный список работ:</p>
               <ul class="portfolio__list">
-                <li class="portfolio__item"><a class="portfolio__link" href="">Сайт для ТЦ МИР</a></li>
-                <li class="portfolio__item"><a class="portfolio__link" href="">Интернет магазин БИР ПЕКС</a></li>
+                <li class="portfolio__item"><a class="portfolio__link" href="#mir">Сайт для ТЦ МИР</a></li>
+                <li class="portfolio__item"><a class="portfolio__link" href="#byrpex">Интернет магазин БИР ПЕКС</a></li>
               </ul>
             </aside>
 
