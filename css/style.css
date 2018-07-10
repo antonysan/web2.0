@@ -599,11 +599,21 @@ body {
 .cvv__box {
   display: flex;
 }
+@media screen and (max-width: 767px) {
+  .cvv__box {
+    flex-direction: column;
+  }
+}
 .cvv__image-block {
   width: 50%;
   max-width: 444px;
   height: 100%;
-  max-height: 414px;
+}
+@media screen and (max-width: 767px) {
+  .cvv__image-block {
+    width: 100%;
+    margin: 0 auto;
+  }
 }
 .cvv__image {
   width: 100%;
@@ -613,6 +623,11 @@ body {
   width: 70%;
   max-width: 610px;
   padding-left: 2%;
+}
+@media screen and (max-width: 767px) {
+  .cvv__description {
+    width: 100%;
+  }
 }
 .cvv__bold {
   font-weight: bold;
